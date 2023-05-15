@@ -2,7 +2,7 @@ let selectField = document.getElementById("selectField");
 let selectText = document.getElementById("selectText");
 let list = document.getElementById("list");
 let arrowIcon = document.getElementById("arrowIcon");
-let options = document.getElementsByClassName("options");
+let options = document.getElementsByClassName("option");
 
 selectField.addEventListener("click", () => {
   list.classList.toggle("hide");
